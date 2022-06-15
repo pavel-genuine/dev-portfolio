@@ -7,31 +7,24 @@ const Skills = () => {
 
             <div className='w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10'>
                 <div>
-                    <div className='flex justify-between text-[aqua]'><p>HTML</p><p>100%</p></div>
+                    <div className='flex justify-between text-[aqua]'><p>Modeling : AutoCAD Electrical</p><p>100%</p></div>
                     <progress class="progress progress-error bg-black " value="100" max="100"></progress><br />
-                    <div className='flex justify-between text-[aqua]'><p>CSS</p><p>90%</p></div>
+                    <div className='flex justify-between text-[aqua]'><p>Simulation : Pspice, Proteus</p><p>90%</p></div>
 
                     <progress class="progress progress-error bg-black " value="90" max="100"></progress><br />
-                    <div className='flex justify-between text-[aqua]'><p>JavaScript</p><p>90%</p></div>
+                    <div className='flex justify-between text-[aqua]'><p>Programming : C, C++,Python, Golang</p><p>90%</p></div>
                     <progress class="progress progress-error bg-black" value="90" max="100"></progress><br />
-                    <div className='flex justify-between text-[aqua]'><p>React</p><p>90%</p></div>
-
-                    <progress class="progress progress-error bg-black" value="90" max="100"></progress><br />
-
+                    
                 </div>
                 <div>
-                <div className='flex justify-between text-[aqua]'><p>Bootstrap</p><p>90%</p></div>
+                <div className='flex justify-between text-[aqua]'><p>Data Analysis : Matlab, Ocatve, Python ( Tensorflow, Open CV,
+Pytorch,Pandas,Matplotlib,SQLAlchemy)</p><p>90%</p></div>
 
                     <progress class="progress progress-error bg-black " value="90" max="100"></progress><br />
-                    <div className='flex justify-between text-[aqua]'><p>Tailwind</p><p>90%</p></div>
+                    <div className='flex justify-between text-[aqua]'><p>Hardware Programming : Verilog, Arduino, Intel 8086 Microprocessor</p><p>90%</p></div>
 
-                    <progress class="progress progress-error bg-black " value="90" max="100"></progress><br />
-                    <div className='flex justify-between text-[aqua]'><p>NodeJS (ExpressJS)</p><p>80%</p></div>
+<progress class="progress progress-error bg-black" value="90" max="100"></progress><br />
 
-                    <progress class="progress progress-error bg-black " value="80" max="100"></progress><br />
-                    <div className='flex justify-between text-[aqua]'><p>MongoDB</p><p>80%</p></div>
-
-                    <progress class="progress progress-error bg-black " value="80" max="100"></progress><br />
                 </div>
             </div>
         </div>

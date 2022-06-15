@@ -9,13 +9,13 @@ const Banner = () => {
             Hi, I am,
             </p> <br />
             <h1 className='banner-text text-6xl text-[#b8cccc] font-bold'>
-                Md Joynul Abedin.
+                Rahim Hossain.
             </h1> <br />
             <h1 className='banner-text text-6xl font-bold text-[#839c9c]'>
-                I Build Things for Web.
+                I Build Things Related to Data Science.
             </h1> <br />
             <p className='text-[#b8cccc]'>
-            I’m a web app developer specializing in building (and occasionally
+            I’m a data scientist specializing in building (and occasionally
             </p>
             <p  className='text-[#b8cccc]'>  designing) exceptional digital experiences. Currently,
             </p>

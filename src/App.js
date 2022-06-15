@@ -11,6 +11,8 @@ import Details from './Components/Details/Details';
 import { Route, Routes } from 'react-router';
 import Home from './Components/Home/Home';
 import Blogs from './Components/Blogs/Blogs';
+import Recommendations from './Components/Recommendations/Recommendations';
+import Hobbies from './Components/Hobbies/Hobbies';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
        <Route path='/:id' element={<Details></Details>} ></Route>
        <Route path='/contact' element={<Contact></Contact>} ></Route>
        <Route path='/blogs' element={<Blogs></Blogs>} ></Route>
+       <Route path='/recommendations' element={<Recommendations></Recommendations>} ></Route>
+       <Route path='/hobbies' element={<Hobbies></Hobbies>} ></Route>
        
      </Routes>
       <Footer></Footer>

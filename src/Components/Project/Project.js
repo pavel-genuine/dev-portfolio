@@ -22,25 +22,16 @@ const Project = (props) => {
     return (
         <div>
             <div class=" w-[80%] mx-auto card w-96 bg-[aqua] shadow-xl">
-                <Carousel
-                    wrapAround={true}
-                    autoplay={true}
-                    slidesToShow={1}
-                >
-                    <img className='img' src={img} />
-                    <img className='img' src={img2} />
-                    <img className='img' src={img3} />
 
-                </Carousel>
+                <img className='img' src={img} />
+
 
                 <div class="card-body">
                     <h2 class="card-title">
                         {name}
-                        <div class=" live-site badge text-[aqua]"><a href={url}>Live Site</a></div>
                     </h2>
-                    <p>{title}</p>
                     <div class="card-actions justify-end">
-                        {
+                        {/* {
                             server ? <div class="badge badge-outline"><a href={client}>Client Side Code</a></div>
                                 :
                                 <div class="badge badge-outline"><a href={client}>Source Code</a></div>
@@ -48,22 +39,24 @@ const Project = (props) => {
                         {
                             server && <div class="badge badge-outline"><a href={server}>Server Side Code</a></div>
 
-                        }    </div>
+                        }    </div> */}
 
-                    <button onClick={() => detailProject(id)} className='btn mt-5'> Detail </button>
+                        <button className='btn mt-5'>                        <div class=" live-site badge text-[aqua]"><a href={url}> Project Detail</a></div>
+                        </button>
+
+                    </div>
+
+
+
+
 
                 </div>
 
 
 
-
-
-            </div>
-
-
-
-        </div >
-    );
+            </div >
+            </div >
+            );
 };
 
-export default Project;
+            export default Project;

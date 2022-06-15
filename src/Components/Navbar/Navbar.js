@@ -14,23 +14,27 @@ const Navbar = () => {
       <li className='items'><a href='/' >Home</a></li>
       <li   className='items'><a href='/#about'>About</a></li>
       <li  className='items'><a href='/#projects' >Projects</a></li>
+      <li  className='items'><a href='/recommendations' >Recommendations</a></li>
       <li  className='items'><a href='/blogs' >Blogs</a></li>
+      <li  className='items'><a href='/hobbies' >Hobbies</a></li>
       <li  className='items'><a href='/contact' >Contact</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case  border-[aqua] text-[aqua] text-xl">JA</a>
+    <a className="btn btn-ghost normal-case  border-[aqua] text-[aqua] text-xl">RH</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
       <li className='items'><a href='/' >Home</a></li>
       <li   className='items'><a href='/#about'>About</a></li>
       <li  className='items'><a href='/#projects' >Projects</a></li>
+      <li  className='items'><a href='/recommendations' >Recommendations</a></li>
       <li  className='items'><a href='/blogs' >Blogs</a></li>
+      <li  className='items'><a href='/hobbies' >Hobbies</a></li>
       <li  className='items'><a href='/contact' >Contact</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='https://drive.google.com/file/d/17CiMisYrG6cAKUpBKHaMECWhO2WQtBnr/view?usp=sharing' className="items btn px-5 btn-sm  border-[aqua] text-[aqua]">Resume</a>
+    <a href='https://drive.google.com/file/d/1A-wyoJIaH1iuhdqv3hJIbHTM5f9TjPf0/view?usp=sharing' className="items btn px-5 btn-sm  border-[aqua] text-[aqua]">Resume</a>
   </div>
 </div>
         </div>

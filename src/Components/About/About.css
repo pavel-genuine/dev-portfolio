@@ -2,3 +2,13 @@
 
 background-color:#e1815f;
 }
+
+
+.photo{
+    opacity: .5;
+    
+}
+
+.photo:hover{
+    opacity:1 ;
+}
